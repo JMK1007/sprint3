@@ -2,14 +2,14 @@ import { createGlobalTheme, style } from '@vanilla-extract/css';
 
 export const vars = createGlobalTheme(':root', {
   color: {
-    main: '#ffa726',
-    mainDarker: '#ffb74d',
-    mainFaded: '#ffb74d',
-    mainFadedBright: '#ffb74da6',
+    main: '#5290f2',
+    mainDarker: '#1056c7',
+    mainFaded: '#324461',
+    mainFadedBright: '#91a5c4a6',
     list: 'rgb(235, 236, 240)',
     task: 'rgb(255, 255, 255)',
     taskHover: 'rgb(245, 245, 245)',
-    brightText: 'rgb(24, 42, 77)',
+    brightText: '#f5f9ff',
     darkText: 'rgb(24, 42, 77)',
     secondaryDarkText: 'rgb(94, 108, 132)',
     secondaryDarkTextHover: 'rgb(218, 219, 226)',
