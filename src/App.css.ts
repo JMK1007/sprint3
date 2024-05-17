@@ -59,4 +59,20 @@ export const board = style({
 export const buttons = style({
   marginTop: 'auto',
   paddingLeft: vars.spacing.big2,
+  display: 'flex',
+  gap: '10px',
+  padding: '20px',
+});
+
+export const button = style({
+  backgroundColor: vars.color.main,
+  padding: '12px',
+  borderRadius: 8,
+  border: 0,
+  fontSize: vars.fontSizing.T3,
+
+  ':hover': {
+    opacity: 0.8,
+    cursor: 'pointer',
+  },
 });
